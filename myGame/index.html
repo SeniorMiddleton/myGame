@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age of Heroes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="canvas" oncontextmenu="return false">
+      <div id="background-canvas">
+        <img
+          src="assets/2 Background/Day/Background.png"
+          alt=""
+          style="position: absolute; left: 0; bottom: 64px; width: 100%"
+        />
+      </div>
+      <img src="fullscreen.png" id="fullScreen" />
+      <div id="block">
+        <img id="hero-img" src="hero-sprite.png" alt="" />
+      </div>
+      <div id="jump-block">
+        <img id="sprite" src="hero-sprite.png" alt="" />
+        <div id="box"></div>
+      </div>
+      <div id="hit-block">
+        <img id="sprite1" src="hero-sprite.png" alt="" />
+        <div id="box"></div>
+      </div>
+      <p id="info"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
